@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bootstrap</title> 
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	</head>
+<body>
+	<h1>Lets check out DIV in bootstrap!!</h1>
+	<div class="container-fluid"> 
+		<div class="row">
+		<div class="col-md-4" style="background-color: red">LEFT</div>
+		<div class="col-md-4" style="background-color: blue">middle</div>
+		<div class="col-md-4" style="background-color: green">right</div>
+	</div>
+</div>
+	
+
+	<div class="container">
+		<h2>Rounded Image</h3>
+		<p>Class img-rounded lets the image with round corners..Lets check it out!!</p>
+		<img src="ayaan.jpg" class="rounded" alt="Image not found" width="300px" height="400px">
+	</div>
+	<div class="container">
+		<h2>circle Image</h3>
+		<p>Class img-circle lets the image round in shape..Lets check it out!!</p>
+		<img src="ayaan.jpg" class="rounded-circle" alt="Image not found" height="300px">
+	</div>
+	<div class="container">
+		<h2>Thumbnail</h3>
+		<p>Class img-thumbnail ..Lets check it out!!</p>
+		<img src="ayaan.jpg" class="img-thumbnail" alt="Image not found" width="300px" height="400px">
+	</div>
+	<div class="container">
+		<h2>Responsive</h3>
+		<p>Class img-responsive lets the image adjust itself ..Lets check it out!!</p>
+		<img src="ayaan.jpg" class="img-responsive" alt="Image not found" width="300px" height="400px">
+	</div>
+</br>
+
+
+	<p>Lets check out thumbnails side by side</p>
+	<div class="row">
+	
+		<div class="col-md-4">
+			<div class="Thumbnail">
+			<a href="ayaan.jpg">
+				<img src="ayaan.jpg" alt="No Image As Such" style=" width: 100%">
+				<div class="caption">
+					<p>Enjoying Rain!!</p>
+				</div>
+			</a>
+		</div>
+	</div>
+	
+		<div class="col-md-4">
+			<div class="Thumbnail">
+			<a href="wmc.jpg">
+				<img src="wmc.jpg" alt="No Image As Such" style=" width :100%">
+				<div class="caption">
+					<p>washing machine fun!</p>
+				</div>
+			</a>
+		</div>
+	</div>
+		<div class="col-md-4">
+			<div class="Thumbnail">
+			<a href="bald.jpg">
+				<img src="bald.jpg" alt="No Image As Such" style=" width :100%">
+				<div class="caption">
+					<p>My first haircut!!</p>
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="container">
+	<h2> Lets create a responsive video of 16 by 9  aspect ratio</h2>
+	<div class="row"
+	<div class="embed-responsive embed-responsive-16by9">
+
+		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tcN09hpP5Ko"></iframe>
+		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mElVGah7Epg"></iframe>
+	</div>
+</div>
+</div>
+<h1>Its time to learn jumbotron</h1>
+<h3>Jumbotron inside container</h3>
+<div class="container">
+	<div class="jumbotron">
+		<p>This is jumbotron inside container</p>
+		</div>
+		<h3>Thisis line 1</h3>
+</div>
+<h3>Jumbrotron outside container</h3>
+<div class="jumbotron">
+	<p>this is jumbotron outside container</p>
+</div>
+	<div class="container">
+		<h4>this is line 2</h4>
+	</div>
+
+
+<div class="page-header">
+	<h1>This is the header line below!</h1>
+</div>
+
+
+
+<div class="well">
+	<h2>Hello!! i have a well class..</h2>
+	<!--well has 3 sizes...WELL-SM, WELL-LG AND WELL is by default of medium size-->
+</div>
+
+<div class="alert alert-warning"><h2>warning!!</h2></div>
+
+<div class="container">
+	<h2>ALERT LINKS</h2>
+	<div class="alert alert-success">
+		SUCCESS!!NOW<a href="https://www.w3schools.com/bootstrap/bootstrap_alerts.asp" class="alert link">read this link</a>
+	</div>
+</div>
+
+
+
+<div class="container">
+	<h2>Lets see how to close any alert message..</h2>
+	<div class="alert alert-success alert-dismissable" >
+	<a href="#" class="close" data-dismiss="alert" aria-label="close">X</a>
+	SUCCESS!! This alert can be closed!!
+</div>
+<div class="alert alert-warning alert-dismissable" >
+	<a href="#" class="close" data-dismiss="alert" aria-label="close">X</a>
+	DANGER!! This alert can be closed!!
+</div>
+<div class="alert alert-success alert-dismissable fade-in"> <a href="#" class="close" data-dismiss="alert" aria-label="close">X</a> Click on me, i will<strong> fade </strong> out!!</div>
+</div>
+
+
+	<h2>Buttons</h2>
+	<div class="btn-group">
+	<button type="button" class="btn">BASIC</button>
+	<button type="button" class="btn btn-default">DEFAULT</button>
+	<button type="button" class="btn btn-primary">PRIMARY</button>
+	<button type="button" class="btn btn-info">INFO</button>
+	<button type="button" class="btn btn-warning">warning</button>
+
+<div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      danger
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="#">Dropdown link</a>
+      <a class="dropdown-item" href="#">Dropdown link</a>
+    </div>
+  </div>
+</div>
+
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data</li>
+  </ol>
+</nav>
+
+
+<h1>Heading 1 <span class="badge badge-secondary">NEW</span></h1>
+<button type="button" class="btn btn-primary">notification <span class="badge badge-light">1</span></button>
+<a href="http://getbootstrap.com/docs/4.0/components/badge/" class="badge badge-pill badge-warning">warning</a>
+
+<div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+    <button type="button" class="btn btn-secondary">1</button>
+    <button type="button" class="btn btn-secondary">2</button>
+    <button type="button" class="btn btn-secondary">3</button>
+    <button type="button" class="btn btn-secondary">4</button>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text" id="btnGroupAddon">@</div>
+    </div>
+    <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon">
+  </div>
+</div>
+
+<div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group" role="group" aria-label="First group">
+    <button type="button" class="btn btn-secondary">1</button>
+    <button type="button" class="btn btn-secondary">2</button>
+    <button type="button" class="btn btn-secondary">3</button>
+    <button type="button" class="btn btn-secondary">4</button>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text" id="btnGroupAddon2">@</div>
+    </div>
+    <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon2">
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="bald.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+   <div class="card">
+  <div class="card-body">
+    This is some text within a card body.
+  </div>
+</div>
+    <a href="http://getbootstrap.com/docs/4.0/components/card/" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+ 
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Cras justo odio</li>
+    <li class="list-group-item"> <div class="card-header">
+    Featured
+  </div></li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Vestibulum at eros</li>
+  </ul>
+</div>
+
+
+<div class="row">
+  <div class="col-sm-4">
+  	<div class="card text-center">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+  </div>
+    </div>
+  </div>
+  <div class="col-sm-8">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="http://getbootstrap.com/docs/4.0/components/card/">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://getbootstrap.com/docs/4.0/components/card/">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="http://getbootstrap.com/docs/4.0/components/card/">Disabled</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+
+<!-- Default dropup button -->
+<div class="btn-group dropup">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropup
+  </button>
+   <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+  <div class="dropdown-menu">
+    <!-- Dropdown menu links -->
+  </div>
+</div>
+
+<!-- Split dropup button -->
+<div class="btn-group dropup">
+  <button type="button" class="btn btn-secondary">
+    Split dropup
+  </button>
+  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  	 <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    <!-- Dropdown menu links -->
+  </div>
+</div>
+
+<div class="dropdown-menu">
+  <form class="px-4 py-3">
+    <div class="form-group">
+      <label for="exampleDropdownFormEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+    </div>
+    <div class="form-group">
+      <label for="exampleDropdownFormPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="dropdownCheck">
+      <label class="form-check-label" for="dropdownCheck">
+        Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </form>
+  <div class="dropdown-divider"></div>
+  <a class="dropdown-item" href="#">New around here? Sign up</a>
+  <a class="dropdown-item" href="#">Forgot password?</a>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/popper.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+<!--container lets the content fill the window leaving margins but container fluid fills the entire window
+	jquery is alwez before bootstrap.min.js coz latter needs former-->
+	
+
+</body>
+</html>
